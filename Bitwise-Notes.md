@@ -36,3 +36,7 @@ The OR gate always returns 1 unless both bits are 0. Therefore, if both bits are
 ## XOR Gate
 
 Send both input bits to an OR gate and also a NAND gate. Then send the output of those two gates through an AND gate to get the result of an XOR gate. The XOR gate is always 1 if the bits are the different and 0 if they are the same.
+
+## XOR Gate
+
+Send both input bits to an NOR gate and also an AND gate. Then send the output of those two gates through an OR gate to get the result of an XNOR gate. The XNOR gate is always 0 if the bits are the different and 1 if they are the same.
